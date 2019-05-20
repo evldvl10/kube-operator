@@ -9,12 +9,31 @@ This repository contains:
   - kube-prometheus (https://github.com/coreos/kube-prometheus)
 
 # Management
-  - Dashboard (https://192.168.0.107:30000)
-  - Ceph (http://ceph.cluster.lc)
-  - Prometheus (http://prometheus.cluster.lc)
-  - Grafana (http://grafana.cluster.lc)
-  - AlertManager (http://alertmanager.cluster.lc)
+### Dashboard
+https://192.168.0.107:30000
 
+![screenshot](https://i.ibb.co/8g5Tcw4/Screenshot-from-2019-05-20-04-16-43.png)
+
+### Ceph
+http://ceph.cluster.lc
+
+![screenshot](https://i.ibb.co/HxV0DtM/Screenshot-from-2019-05-20-04-17-08.png)
+
+### Grafana
+http://grafana.cluster.lc
+
+![screenshot](https://i.ibb.co/z6rhSC9/Screenshot-from-2019-05-20-04-17-23.png)
+
+### Prometheus
+http://prometheus.cluster.lc
+
+![screenshot](https://i.ibb.co/TTPwDyb/Screenshot-from-2019-05-20-04-17-36.png)
+
+### AlertManager
+http://alertmanager.cluster.lc
+
+![screenshot](https://i.ibb.co/6Pc62Dc/Screenshot-from-2019-05-20-04-17-47.png)
+  
 # Credentials
 Get dashboard token
 ```sh
