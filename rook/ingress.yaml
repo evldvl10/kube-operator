@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: rook-ceph-mgr-dashboard
+  namespace: rook-ceph
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+spec:
+  rules:
+  - host: ceph.cluster.lc
+    http:
+      paths:
+      - path: /(.*)
+        backend:
+          serviceName: rook-ceph-mgr-dashboard
+          servicePort: https-dashboard
