@@ -55,6 +55,8 @@ $ go get sigs.k8s.io/kustomize
 ```
 
 # Build
+[Create a single master cluster](https://github.com/evildevel/kube-operator/wiki/Creating-a-single-master-cluster), then run:
+
   - Build .yaml configs
   - Build and apply kustomize
 ```sh
