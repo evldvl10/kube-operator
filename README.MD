@@ -46,7 +46,7 @@ kubectl -n rook-ceph get secret rook-ceph-dashboard-password -o jsonpath="{['dat
 Use admin/admin to access "Prometheus", "Grafana", "AlertManager" management systems.
 
 # Install dependencies
-[Install Go](https://github.com/user/repo/blob/branch/other_file.md), then run:
+[Install Go](https://github.com/evildevel/kube-operator/wiki/Install-Go), then run:
 ```sh
 $ go get github.com/google/go-jsonnet/cmd/jsonnet
 $ go get github.com/brancz/gojsontoyaml
